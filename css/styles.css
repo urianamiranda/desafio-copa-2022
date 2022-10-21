@@ -1,0 +1,110 @@
+body {
+    background: #e6e6e6;
+}
+
+.text-head th {
+    line-height: 1.5rem;
+    letter-spacing: -0.02rem;
+    text-align: center;
+    border-bottom: 0.125rem solid;
+    padding-bottom: 0.4375rem;
+}
+
+.group-selection tbody {
+    margin-bottom: 3px;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+.group-selection tr {
+    border: 5px solid #e6e6e6
+}
+
+h5 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-img {
+    width: 30px;
+    margin: 0 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.team-img:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.team-key {
+    width: 20px;
+}
+
+.scoreboard-octaves {
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.scoreboard-octaves tr {
+    border: 5px solid #e6e6e6
+}
+
+.scoreboard-quarter {
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 90px;
+}
+
+.scoreboard-quarter tr {
+    border: 5px solid #e6e6e6
+}
+
+.scoreboard-quarter-team-two {
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-top: 290px;
+    margin-bottom: 90px;
+}
+
+.scoreboard-quarter-team-two tr {
+    border: 5px solid #e6e6e6
+}
+
+.scoreboard-semifinals {
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-top: 308px;
+    margin-bottom: 50px;
+}
+
+.scoreboard-semifinals tr {
+    border: 5px solid #e6e6e6
+}
+
+.scoreboard-finals {
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-top: 335px;
+    margin-bottom: 50px;
+}
+
+.scoreboard-finals tr {
+    border: 5px solid #e6e6e6
+}
+
+.scoreboard-champion {
+    width: 100%;
+    margin-top: 340px;
+    margin-bottom: 50px;
+}
+
+.scoreboard-champion td{
+    text-align: center;
+}
+
+#buttons-keys-reset {
+    object-position: center;   
+}
