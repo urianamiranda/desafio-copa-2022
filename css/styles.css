@@ -51,6 +51,10 @@ h5 {
     width: 20px;
 }
 
+.cup-trophy {
+    width: 65px;
+}
+
 .scoreboard-octaves {
     background-color: #f3f3f3;
     width: 100%;
@@ -107,7 +111,7 @@ h5 {
 
 .scoreboard-champion {
     width: 100%;
-    margin-top: 340px;
+    margin-top: 250px;
     margin-bottom: 50px;
 }
 

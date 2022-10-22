@@ -659,6 +659,20 @@ function inicia_rodada() {
     }
 }
 
+function envia_resultado() {
+    $.ajax({
+        type: "POST",
+        url: "https://estagio.geopostenergy.com/WorldCup/InsertFinalResult",
+        contentType: 'application/json',
+        headers: {"git-user": "urianamiranda"},
+        dataType: "json",
+        data: '{"equipeA": "9e0921bc-e658-4f10-8bf0-f6ee5b4abb30","equipeB": "11b7d570-adae-40e6-b51b-20c6bbbd837d","golsEquipeA": 5,"golsEquipeB": 0,"golsPenaltyTimeA": 0,"golsPenaltyTimeB": 0}',
+        success: response => {
+            console.log(response);
+        },
+    });
+}
+
 $( document ).ready(function() {
     $.ajax({
         type: "GET",
