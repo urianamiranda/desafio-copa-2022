@@ -69,7 +69,6 @@ h5 {
     background-color: #f3f3f3;
     width: 100%;
     margin-top: 105px;
-    margin-bottom: 90px;
 }
 
 .scoreboard-quarter tr {
@@ -80,7 +79,6 @@ h5 {
     background-color: #f3f3f3;
     width: 100%;
     margin-top: 290px;
-    margin-bottom: 90px;
 }
 
 .scoreboard-quarter-team-two tr {
@@ -91,7 +89,6 @@ h5 {
     background-color: #f3f3f3;
     width: 100%;
     margin-top: 308px;
-    margin-bottom: 50px;
 }
 
 .scoreboard-semifinals tr {
@@ -102,7 +99,6 @@ h5 {
     background-color: #f3f3f3;
     width: 100%;
     margin-top: 335px;
-    margin-bottom: 50px;
 }
 
 .scoreboard-finals tr {
@@ -112,7 +108,6 @@ h5 {
 .scoreboard-champion {
     width: 100%;
     margin-top: 250px;
-    margin-bottom: 50px;
 }
 
 .scoreboard-champion td{
